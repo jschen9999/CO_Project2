@@ -1,0 +1,21 @@
+0x110		li R2,7			
+0x114		li R3,15		
+0x118		li R4,4			
+0x11C		or R8,R2,R4
+loop1:
+0x120		bnez R3,loop2
+0x124		add R6,R2,R6
+loop2:
+0x128		and R9,R2,R3
+0x12C		ori R10,R2,15
+0x130		li R3,0
+0x134		b loop3
+0x138		andi R11,R3,5
+loop3:
+0x13C		li R6,1
+0x140		mul R7,R3,R4
+0x144		addi R11,R9,R8
+0x148		move R4,R10
+0x14C		bge R6,R2,loop1
+0x144		ble R0,R6,End
+End:

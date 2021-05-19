@@ -1,0 +1,113 @@
+Please Input Entries (Entries = 2 ªº 1~10 ¦¸¤è ) ¡G8
+
+||||||||||||||||||||||||||||||||||||||
+
+I4¡Gbnez R3,loop2
+---------------Predict---------------
+entry¡G0
+Predictor State¡G00,SN,SN,SN,SN
+Prediction¡GN
+--------- Actual Outcome¡GT ---------
+Miss or not¡GMiss
+---------- Check Update BHT ---------
+entry_0¡G 
+01,WN,SN,SN,SN
+entry_1¡G 
+00,SN,SN,SN,SN
+entry_2¡G 
+00,SN,SN,SN,SN
+entry_3¡G 
+00,SN,SN,SN,SN
+entry_4¡G 
+00,SN,SN,SN,SN
+entry_5¡G 
+00,SN,SN,SN,SN
+entry_6¡G 
+00,SN,SN,SN,SN
+entry_7¡G 
+00,SN,SN,SN,SN
+
+
+||||||||||||||||||||||||||||||||||||||
+
+I9¡Gb loop3
+---------------Predict---------------
+entry¡G5
+Predictor State¡G00,SN,SN,SN,SN
+Prediction¡GN
+--------- Actual Outcome¡GT ---------
+Miss or not¡GMiss
+---------- Check Update BHT ---------
+entry_0¡G 
+01,WN,SN,SN,SN
+entry_1¡G 
+00,SN,SN,SN,SN
+entry_2¡G 
+00,SN,SN,SN,SN
+entry_3¡G 
+00,SN,SN,SN,SN
+entry_4¡G 
+00,SN,SN,SN,SN
+entry_5¡G 
+01,WN,SN,SN,SN
+entry_6¡G 
+00,SN,SN,SN,SN
+entry_7¡G 
+00,SN,SN,SN,SN
+
+
+||||||||||||||||||||||||||||||||||||||
+
+I15¡Gbge R6,R2,loop1
+---------------Predict---------------
+entry¡G3
+Predictor State¡G00,SN,SN,SN,SN
+Prediction¡GN
+--------- Actual Outcome¡GN ---------
+Miss or not¡GCorrect
+---------- Check Update BHT ---------
+entry_0¡G 
+01,WN,SN,SN,SN
+entry_1¡G 
+00,SN,SN,SN,SN
+entry_2¡G 
+00,SN,SN,SN,SN
+entry_3¡G 
+00,SN,SN,SN,SN
+entry_4¡G 
+00,SN,SN,SN,SN
+entry_5¡G 
+01,WN,SN,SN,SN
+entry_6¡G 
+00,SN,SN,SN,SN
+entry_7¡G 
+00,SN,SN,SN,SN
+
+
+||||||||||||||||||||||||||||||||||||||
+
+I16¡Gble R0,R6,End
+---------------Predict---------------
+entry¡G1
+Predictor State¡G00,SN,SN,SN,SN
+Prediction¡GN
+--------- Actual Outcome¡GT ---------
+Miss or not¡GMiss
+---------- Check Update BHT ---------
+entry_0¡G 
+01,WN,SN,SN,SN
+entry_1¡G 
+01,WN,SN,SN,SN
+entry_2¡G 
+00,SN,SN,SN,SN
+entry_3¡G 
+00,SN,SN,SN,SN
+entry_4¡G 
+00,SN,SN,SN,SN
+entry_5¡G 
+01,WN,SN,SN,SN
+entry_6¡G 
+00,SN,SN,SN,SN
+entry_7¡G 
+00,SN,SN,SN,SN
+
